@@ -1,0 +1,7 @@
+.idea/
+challenges.iml
+
+**/*.class
+
+.DS_Store
+**/.DS_Store
