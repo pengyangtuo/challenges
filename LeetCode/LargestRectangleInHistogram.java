@@ -13,7 +13,7 @@ public class LargestRectangleInHistogram {
                     int lastHeightIdx = pos.pop();
                     int lastHeight = heights[lastHeightIdx];
                     int localMax = lastHeight * (i - (pos.empty() ? 0 : (pos.peek()+1)));
-                    if(localMax > max){ // 4ms faster (30% increase in leetcode submission ranking) comparing to use Math.max()
+                    if(localMax > max){ // 4ms faster (30% increase in leetcode submission ranking) comparing to using Math.max()
                         max = localMax;
                     }
                 }
